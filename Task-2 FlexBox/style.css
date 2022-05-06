@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #001119;
+}
+
+#wrapper {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin-top: 24px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#systems-expert {
+  width: 50%;
+  align-self: center;
+  background-color: #890123;
+  order: 1;
+}
+
+#algo-expert {
+  width: 75%;
+  background-color: #626ee3;
+  align-self: center;
+  order: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ml-expert {
+  width: 30%;
+  height: 75px;
+  background-color: #f37f1b;
+  order: 1;
+}
+
+#frontend-expert {
+  width: 40%;
+  align-self: flex-end;
+  background-color: #12967e;
+  order: 3;
+}
+
+#programming-expert {
+  height: 75px;
+  width: 59%;
+  background-color: #f21a3f;
+  order: 3;
+}
